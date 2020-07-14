@@ -1,0 +1,7 @@
+{
+  "name": "find_movies",
+  "version": "1.0.0",
+  "dependencies": {
+    "crypto-js": "latest"
+  }
+}

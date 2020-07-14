@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	background: url(/img/th1.jpg); position:absolute;
+	z-index: -100;
+}
+
+.hand:hover{
+	cursor:pointer;
+}
+
+#login{
+    float: right;
+    width: 200px;
+	margin-top: 10px;
+}
+
+#login div{
+	cursor:pointer;
+}
+
+#l_png{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    float: left;
+}
+
+#find{
+	float: left;
+	margin-top: 130px;
+	margin-left: 80px;
+	width: 1000px;
+}
+
+#find div{
+	float: left;
+}
+
+#l_text{
+	color: white;
+	font-size: 36px;
+	font-weight: 500;
+	
+	margin: 6px;
+}
+
+#in{
+	border: none;
+	width: 600px;
+	height: 55px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 10px;
+	outline:none;
+	float: left;
+	
+	text-indent: 10px;
+	font-size: 17px;
+	
+	font-weight: 400;
+	
+	box-shadow:0px 10px 5px -10px #808080;
+	
+	z-index: 100;
+}
+
+#in:hover{
+	box-shadow:5px 10px 15px -5px #808080;
+}
+
+#f_png{
+	
+	position: relative;
+	right: 40px;
+	top:18px
+	
+}
+
+.f_tag{
+
+	float: left;
+	background: white;
+	width: 80px;
+	height: 40px;
+	
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	
+	position: absolute;
+	top: 100px;
+	
+	border-radius: 3px;
+	
+}
+
+.skew{
+	width: 20px;
+	transform:skewX(20deg);
+}
+
+.f1{
+	left: 269px;
+	
+	
+	z-index: 3;
+}
+
+.f2{
+	left: 357px;
+	
+	background: #dfe6e9;
+	
+	z-index: -1;
+}
+
+.s1{
+	left: 339px;
+
+	
+	z-index: 3;
+}
+
+.s2{
+	left: 426px;
+	
+	background: #dfe6e9;
+	
+	z-index: -1;
+}
+
+.btn{
+	float: left;
+	width: 36px;
+	height: 36px;
+	
+	border: 2px solid white;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+.b_img{
+	width: 18px;
+	height: 26px;
+	margin-left: 8px;
+	margin-top: 5px;
+}
+
+#change{
+	float: left;
+	margin-top: 620px;
+	margin-left: 200px;
+}
