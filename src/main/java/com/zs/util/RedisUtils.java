@@ -34,7 +34,7 @@ public class RedisUtils {
 
         List<String> list=new ArrayList<>();
 
-        File file =new File("E:\\kelin\\java\\find_movies\\src\\main\\resources\\hotword.dic");
+        File file =new File("E:\\myProject\\java\\find_movies\\src\\main\\resources\\hotword.dic");
         BufferedReader input=null;
         String data="";
 
